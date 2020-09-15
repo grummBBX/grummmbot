@@ -110,4 +110,4 @@ async def benji(ctx):
 async def doggies(ctx):
     await ctx.send(random.choice(dogs))
 
-bot.run('NzU1Mjk5Mjc1NjI1MjAxNjg2.X2BRRA.EYCqgNcmyGNrNaKjAZdyRBLCxuc')
+bot.run('')
