@@ -11,6 +11,8 @@ async def on_ready():
 @client.command()
 async def ping(ctx):
     await ctx.send(f':ping_pong: Pong! {round(client.latency * 1000)}ms')
+   
+#.......................
 
 @client.command(aliases=['8ball'])
 async def _8ball(ctx, *, question):
@@ -35,7 +37,19 @@ async def _8ball(ctx, *, question):
                 "Outlook not so good.",
                 "Very doubtful."]
     await ctx.send(f'Question: {question}\nAnswer: {random.choice(responses)} ')
+    
+#.........................
 
+
+
+@client.command()
+async def hi(ctx):
+    eli = ':middle_finger:'*random.randint(7,20)
+    await ctx.send(f':'{eli}')
+
+#..........................
+                   
+                   
 @client.command()
 async def benji(ctx):
     benjis = ['https://cdn.discordapp.com/attachments/697587669051637760/755291515571404830/video0.mov',
@@ -47,5 +61,7 @@ async def benji(ctx):
             'https://cdn.discordapp.com/attachments/697587669051637760/755289554805588068/video0.mov',
             'https://cdn.discordapp.com/attachments/697587669051637760/755287161452101662/video0.mov']
     await ctx.send(f'{random.choice(benjis)} ')
+         
+ #.........................
 
 client.run('')
