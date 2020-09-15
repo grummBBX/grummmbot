@@ -15,7 +15,7 @@ async def ping(ctx):
 @client.command()
 async def hi(ctx):
     eli = ':middle_finger:'*random.randint(7,20)
-    await ctx.send(f':{eli}')
+    await ctx.send(f'{eli}')
 
 @client.command(aliases=['8ball'])
 async def _8ball(ctx, *, question):
