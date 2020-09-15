@@ -82,7 +82,7 @@ responses = ["It is certain.",
              "Very doubtful."]
 
 
-@client.event
+@bot.event
 async def on_ready():
     print('Bot is ready.')
 
@@ -110,4 +110,4 @@ async def benji(ctx):
 async def doggies(ctx):
     await ctx.send(random.choice(dogs))
 
-client.run('')
+bot.run('NzU1Mjk5Mjc1NjI1MjAxNjg2.X2BRRA.EYCqgNcmyGNrNaKjAZdyRBLCxuc')
