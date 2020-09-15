@@ -84,7 +84,17 @@ async def doggies(ctx):
             'https://cdn.discordapp.com/attachments/697587669051637760/755428266101309450/20200907_135631.jpg',
             'https://cdn.discordapp.com/attachments/473348357826281474/755426985316057128/20200915_085624.jpg',
             'https://cdn.discordapp.com/attachments/697587669051637760/755454969003376700/WIN_20200127_22_32_34_Pro.jpg',
-            'https://cdn.discordapp.com/attachments/697587669051637760/755455160393793656/WIN_20200629_14_23_50_Pro_2.jpg']
+            'https://cdn.discordapp.com/attachments/697587669051637760/755455160393793656/WIN_20200629_14_23_50_Pro_2.jpg',
+            'https://cdn.discordapp.com/attachments/463790920190394368/755478072131584020/image0.jpg',
+            'https://cdn.discordapp.com/attachments/463790920190394368/755478073788596341/image4.jpg',
+            'https://cdn.discordapp.com/attachments/463790920190394368/755478248296677416/image0.png',
+            'https://media.discordapp.net/attachments/463790920190394368/755479357023191130/image0.jpg?width=512&height=677',
+            'https://cdn.discordapp.com/attachments/463790920190394368/755479357807656960/image2.jpg',
+            'https://cdn.discordapp.com/attachments/463790920190394368/755479358390534184/image3.jpg',
+            'https://cdn.discordapp.com/attachments/463790920190394368/755479358646517902/image4.jpg',
+            'https://cdn.discordapp.com/attachments/463790920190394368/755479359229526036/image6.jpg',
+            'https://cdn.discordapp.com/attachments/463790920190394368/755479360273645638/image9.jpg',
+            'https://media.discordapp.net/attachments/463790920190394368/755479359942557796/image8.jpg?width=546&height=677']
     await ctx.send(f'{random.choice(dogs)} ')
 
 client.run('')
